@@ -5,26 +5,21 @@
     android:id="@+id/miToolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#59F416"
+    android:background="#0A8110"
     android:scrollbarSize="24dp"
-    app:navigationIcon="@drawable/ic_launcher_foreground">
+    app:navigationIcon="@drawable/ic_launcher_menu">
 
 
 
-    <ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/ic_baseline_search_24"
 
-        />
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="app"
+        android:text="Sheets"
         android:textColor="#F3E6E6"
-        android:textSize="24dp"
+        android:textSize="34dp"
         android:textStyle="bold" />
 
 </androidx.appcompat.widget.Toolbar>

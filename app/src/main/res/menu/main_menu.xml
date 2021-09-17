@@ -13,8 +13,20 @@
     <item
         android:id="@+id/item2"
         android:title="opcion 2"
-
+        android:icon="@drawable/ic_launcher_carpeta"
         app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/item3"
+        android:title="opcion 3"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/item5"
+        android:title="opcion 4"
+        app:showAsAction="ifRoom"
+
         />
 
 </menu>

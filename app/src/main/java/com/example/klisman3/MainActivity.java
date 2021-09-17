@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("");
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -35,16 +36,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.item1:
-                Uri sitio = Uri.parse("http://www.udh.edu.pe/");
-                Intent intentItem1 =new Intent(Intent.ACTION_VIEW, sitio);
-                startActivity(intentItem1);
-                Toast.makeText(getApplicationContext(), "hola",Toast.LENGTH_SHORT).show();
-                return true;
+
             case R.id.item2:
                 Intent intentItem2= new Intent(getApplicationContext(),MainActivity2.class);
                     startActivity(intentItem2);
 
+                return true;
+            case R.id.item3:
+                Intent intentItem3= new Intent(getApplicationContext(),MainActivity3.class);
+                startActivity(intentItem3);
                 return true;
         }
         return super.onOptionsItemSelected(item);
